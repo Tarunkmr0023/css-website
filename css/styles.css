@@ -1,0 +1,116 @@
+body {
+  background-color: #E4F9F5;
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px auto 100px auto;
+}
+
+.bottom-container {
+background-color: #bbe1fa;
+padding: 50px 0 20px;
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #66BFBF;
+  font-size: 2.5rem;
+  font-weight: normal;
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+p{
+    line-height: 2;
+}
+a {
+  color: #5f6caf;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover
+{
+  color: #EAF6F6;
+}
+hr{
+  border: dotted  6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto 100px auto;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.my-img {
+  border-radius: 100%;
+}
+
+.code
+{
+  width: 50%;
+}
+.skill-row
+{
+  margin: auto;
+  width: 50%;
+}
+.contact-message
+{
+  width: 35%;
+  margin: auto;
+}
+.myButton {
+	background-color:#11999e;
+	border-radius:8px;
+	border:1px solid #29668f;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:18px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #3d768a;
+}
+.myButton:hover {
+	background-color:#2bc4ad;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.copyright
+{
+  font-size: 0.75rem;
+  padding: 20PX 0;
+}
